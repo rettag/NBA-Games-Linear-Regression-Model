@@ -7,9 +7,9 @@ This project is used for the purpose of learning data extraction from websites, 
 | Statistics        | #  |
 |--------------|-----------|
 | Mean squared error (MSE) | **97.84** |
-| Coeffient of determination (R²) | **0.38**  |
+| Coefficient of determination (R²) | **0.38**  |
 
-Its suprising how accurate a linear regression model can predict the final score of NBA games. A correlation coeffient of 0.70 is pretty strong for given just five statistics that don't nessiarily relate to direct points for either team. A mean squared error seems high until we take the square root. We only ended up predicting, on average, around 9.892 points off for each actual final score. 
+Its suprising how accurate a linear regression model can predict the final score of NBA games. A correlation coefficient of 0.62 is pretty strong for given just five statistics that don't nessiarily relate to direct points for either team. A mean squared error seems high until we take the square root. We only ended up predicting, on average, around 9.892 points off for each actual final score. 
 
 ### Libraries Used
 - Pandas
